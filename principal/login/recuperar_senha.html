@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recuperar senha</title>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login_geral.css">
+    </head>
+
+    <body>
+        <img id="logo-main" src="C:\Users\Noemia\Documents\CSCW\principal\imagem\logo.png" alt="logo">
+
+        <div  class="container_form">
+
+            <p>Recuperação de Senha</p>
+
+       <form>
+
+        <div class="form_grupo">
+            <label for="e-mail" class="form_label">Email</label>
+            <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+        </div>  
+
+        <div class="form_grupo">
+            <label name="senha">Redefir senha</label>
+            <input type="password" nome="red_senha" class="form_input" id="red_senha"  placeholder="Insira sua senha" required>
+        </div>
+        
+        <div class="form_grupo">
+            <label name="senha">Confirme sua senha</label>
+            <input type="password" nome="conf_senha_nova" class="form_input" id="conf_senha_nova"  placeholder="Insira sua senha" required>
+
+        <div class="form_grupo">
+
+            <div class="submit">
+    
+              <input type="hidden" name="acao" value="enviar">
+              <button type="submit" name="Submit" class="submit_btn" >Redefinir senha</button>
+              </div>
+        </div>
+
+       </form> 
+       </div>
+    </body>
+</html>

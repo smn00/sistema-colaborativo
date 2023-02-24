@@ -1,0 +1,21 @@
+#logo-main{
+    width: 200px;
+    position: relative;
+    left: calc( 50% - 100px );
+    background-color: rgb( 43, 89, 189);
+}
+#logo{
+    width: 200px;
+    position: relative;
+    
+    background-color: rgb( 43, 89, 189);
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb( 43, 89, 189);
+    height: 100%;
+}

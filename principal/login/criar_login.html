@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <meta charset="utf=8" > 
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="login_geral.css">
+    <script type="text/javascript" src="confiramcao_email_senha.js"></script>
+</head>
+
+<body class="geral">
+   
+    <img id="logo-main" src="C:\Users\Noemia\Documents\CSCW\principal\imagem\logo.png" alt="logo">
+  
+
+    <div class="container_form">
+
+        <h1>Formulário de Cadastro</h1>
+
+    <form class="form" action="#" method="post">
+        
+        <div class="form_grupo">
+            <label for="nome" class="form_label">Nome</label>
+            <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+        </div>
+        
+        <div class="form_grupo">
+            <label for="email" class="form_label">Email</label>
+            <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@gmail.com" required>
+        </div>    
+
+        <div class="form_grupo">
+            <label for="email" class="form_label">Confirme seu Email</label>
+            <input type="email" name="confemail" class="form_input" id="confemail" placeholder="seuemail@gmail.com" required>
+        </div>  
+
+        <div class="form_grupo">
+            <label for="matricula" class="form_label">Matricula</label>
+            <input type="number" name="matricula" class="form_input" id="matricula" placeholder="matricula" required>
+        </div>
+        
+        <div class="form_grupo">
+            <label name="senha">Senha</label>
+            <input type="password" nome="senha" class="form_input" id="senha"  placeholder="Insira sua senha" required>
+        </div>
+        
+        <div class="form_grupo">
+            <label name="senha">Confirme sua senha</label>
+            <input type="password" nome="confsenha" class="form_input" id="confsenha"  placeholder="Insira sua senha" required>
+        </div>
+
+        <div class="form_grupo">
+
+            <div class="submit">
+
+              <input type="hidden" name="acao" value="enviar">
+              <button type="submit" name="Submit" class="submit_btn" >Cadastrar</button>
+
+              <div class="submit">
+               Já possui cadastro?
+                <a href="login.html">Entrar</a>
+              </div>
+            
+            </div>
+    </form>
+
+</div><!--container_form-->
+</body>

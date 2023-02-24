@@ -1,0 +1,53 @@
+
+.conteiner_chat{
+    width: 600px;
+    border: 1px black solid;
+    padding: 10px;
+    height: 600px;
+
+}
+
+.conteiner_msg {
+    width: 100%;
+    min-width: 90px;
+
+}
+
+.enviar{
+    float: right;
+    background-color: aquamarine;
+
+}
+
+.receber{
+    float: left;
+    background-color: aqua;
+
+}
+.msg{
+    margin-top: 10px;
+    border: 1px #11466a solid;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+.usuario{
+    width: 300px;
+    height: 20px;
+    font-weight: bold;
+
+}
+
+.texto{
+   width: 300px;
+   min-height: 50px;
+
+}
+
+.horario{
+    width: 300px;
+    height: 20px;
+    font-size: small;
+    text-align: right;
+}

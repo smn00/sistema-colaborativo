@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <meta charset="utf=8" > 
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="login_geral.css">
+    
+</head>
+
+<body>
+  <img id="logo-main" src="C:\Users\Noemia\Documents\CSCW\principal\imagem\logo.png" alt="logo">
+  
+    <div class="container_form">
+
+    <h1>Login</h1>
+
+    <form method="post" class="form" action="#" method="post">
+
+        <div class="form_grupo">
+            <label for="e-mail" class="form_label">Email</label>
+            <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+        </div>  
+
+        <div class="form_grupo">
+            <label name="senha">Senha</label>
+            <input type="password" nome="senha" class="form_input" id="senha"  placeholder="Insira sua senha" required>
+        </div>
+
+    </form>
+
+    <div class="form_grupo">
+
+        <div class="submit">
+
+          <input type="hidden" name="acao" value="enviar">
+          <button type="submit" name="Submit" class="submit_btn" >Entrar</button>
+        
+          <div class="submit">
+            Ainda não tem conta?
+            <a href="criar_login.html">Cadastre-se</a>
+          </div>
+          <div class="submit">
+            Esqueceu a senha?
+            <a href="recuperar_senha.html">Recuperar senha</a>
+          </div>
+        
+        </div>
+
+
+    </div>
+</body>
